@@ -51,7 +51,10 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
-  },
+    adapter: require('sails-mysql'),
+    url: 'mysql://nodefinancials:mehedi123@localhost:3306/node_financials',
+
+  }
 
 
 };
